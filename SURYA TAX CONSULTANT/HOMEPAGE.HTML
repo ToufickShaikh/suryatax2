@@ -1,0 +1,1279 @@
+<!doctype html>
+<html lang="en">
+  <head >
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Surya Tax Consultant</title>
+    <link rel="stylesheet" href="hompage.js">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="customstyles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="main.scss">
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Javascripts-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="ajax.js"></script>
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/pace.min.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/plugins/dataTables.bootstrap.min.js"></script>
+
+<!-- DataTable -->
+
+<!-- sweetalert -->
+  <script type="text/javascript" src="js/plugins/sweetalert.min.js"></script>
+<!-- sweetalert -->
+
+
+<!-- select 2 & datepicker -->
+<script type="text/javascript" src="js/plugins/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="js/plugins/select2.min.js"></script>
+<script type="text/javascript" src="js/plugins/bootstrap-datepicker.min.js"></script>
+<!-- select 2 & datepicker -->
+<script type="text/javascript">
+
+  $('.Dateselect').datepicker({
+    format: "dd/mm/yyyy",
+    autoclose: true,
+    todayHighlight: true
+  });
+
+  $('.Selectpicker').select2();
+
+$('.Selectpickermultiple').select2(
+
+);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </head>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
+
+
+      
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap Min CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- MeanMenu CSS -->
+<link rel="stylesheet" href="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/meanmenu.css">
+
+
+    <!-- JQuery Min JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- MeanMenu JS -->
+<script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
+
+
+
+<!-- Image and text -->
+
+<nav class="navbar navbar-light  " style=" background-color:#7692e8; 
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+">
+  <a class="navbar-brand" href="#">
+    <img src="logowhbg.jpeg" width="40" height="39" class="d-inline-block align-top" alt="" loading="lazy">
+    Surya Tax Consultant
+  </a>
+</nav>
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .memad {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .memad-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .memad a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .memad a:hover, .memad a:focus {
+    color: #f1f1f1;
+  }
+  
+  .memad .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .memad a {font-size: 20px}
+    .memad .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  </style>
+  </head>
+  <body   >
+
+
+<style>.phone-call {
+  width: 50px;
+  height: 50px;
+  left: 20px;
+  bottom: 20px;
+  background: #ffc600;
+  position: fixed;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 99;
+display: inline-block;
+line-height: 65px;
+}
+
+.phone-call:before {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: -15px;
+  left: -15px;
+  background-color: #ffc600;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  opacity: 0.6;
+  -webkit-animation: pulse 1s ease-out;
+  animation: pulse 1.8s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+      -webkit-transform: scale(0);
+      opacity: 0;
+  }
+  25% {
+      -webkit-transform: scale(0.3);
+      opacity: 1;
+  }
+  50% {
+      -webkit-transform: scale(0.6);
+      opacity: .6;
+  }
+  75% {
+      -webkit-transform: scale(0.9);
+      opacity: .3;
+  }
+  100% {
+      -webkit-transform: scale(1);
+      opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(0);
+      opacity: 0;
+  }
+  25% {
+      transform: scale(0.3);
+      opacity: 1;
+  }
+  50% {
+      transform: scale(0.6);
+      opacity: .6;
+  }
+  75% {
+      transform: scale(0.9);
+      opacity: .3;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a  href="tel:9840844026">
+<div class="phone-call"><img src="https://image.flaticon.com/icons/png/512/131/131133.png" width="26" alt="Call Now" title="Call Now" style="    margin-left: 10px;
+  margin-top: 10px;  
+"></div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+  <div id="myNav" class="memad">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="memad-content">
+      <a href="registration.html">Registrations</a>
+      <a href="services.html">Our Services</a>
+      <a href="loans.html">Loans</a>
+      <a href="contactus.html">Contact</a>
+    </div>
+  </div>
+  
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open  </span>
+
+
+
+  
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+
+
+
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid marqbg">
+      
+  <marquee behavior="scroll" direction="left" scrollamount="05" onmouseover="this.stop();" onmouseout="this.start();">
+    *Special Offer Income Tax Filing - Just Rs.499 Only * &nbsp;&nbsp;&nbsp; * *MSME Registration Just Rs.499 Only*  &nbsp;&nbsp;&nbsp;  *FOOD Licence (FSSAI) Just Rs.2999 Only*  &nbsp;&nbsp;&nbsp;  Contact: 9884844433 / 9380444433 / 7667575001 / 9962944433 EMail: suryaconsultancy@gmail.com    </marquee>
+</div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="main">
+  
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="backjpeg.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">GST Registration</h2>
+          <h3 class="card_title" >₹999</h3>
+          <p class="card_text">Processing - 3 Working Days</p>
+          <button class="btn card_btn">Read More</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="backjpeg.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Card Grid Layout</h2>
+          <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+          <button class="btn card_btn">Read More</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="backjpeg.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Card Grid Layout</h2>
+          <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+          <button class="btn card_btn">Read More</button>
+        </div>
+      </div>
+    </li>
+     
+
+
+
+
+
+
+
+
+<style>
+  #more {display: none;}
+  .button {
+  background-color: #4CAF50; /* Green */
+  width: 100%;;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+  </style>
+
+
+
+
+
+<div id="dots">...</div><div id="more">
+  <div class="main">
+    
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">GST Registration</h2>
+            <h3 class="card_title" >₹999</h3>
+            <p class="card_text">Processing - 3 Working Days</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="main">
+    
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">GST Registration</h2>
+            <h3 class="card_title" >₹999</h3>
+            <p class="card_text">Processing - 3 Working Days</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="backjpeg.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+
+</div></p>
+  <button onclick="myFunction()" id="myBtn" class="button button2">Read more</button>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row" style="padding-top:50px;padding-bottom:30px;">
+  <div class="col-md-5 col-sm-12">
+   <h2>We Serve Everywhere</h2>
+   <p class="para">suryaconsultancy.com is  operations since 2008. suryaconsultancy.com is one stop business setup and consulting company, managed by specialized team of Business Analysts,Company Secretaries, Chartered Accountants, Corporate Lawyers and Financial Professionals</p>
+
+    <!--<p class="w3-text-grey">
+      <i class="w3-text-red" style="font-size:20px;">*</i>Click the button to open a new window with some specifications.
+    </p>-->
+    <br>
+
+    <div class="card w3-indigo w3-center" style="border-radius:20px;padding:35px;">
+       <h3>FREE CONSULTATION</h3>
+       <p>Got Queries? Request a call from an Business Consultancy.</p>
+       <br>
+       <a href="contactus.html" class="btn w3-white">Let's Talk</a>
+    </div>
+  </div>
+  <div class="col-md-7 col-sm-12">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <div class="hovercard w3-center">
+          <i class="lnr lnr-book fa-2x"></i>
+          <h5>Income Tax Return Filings</h5>
+          <p style="text-align:justify">We will provide income tax return preparation, Revised return, Responding to Department notices and solving other Income Tax related issues.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <div class="hovercard w3-center">
+          <i class="lnr lnr-screen fa-2x"></i>
+          <h5>E-Consulting</h5>
+          <p style="text-align:justify">Our Professionals Will help you in getting your business licenses and Business licenses necessary for smooth running of businesses</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <div class="hovercard w3-center">
+          <i class="lnr lnr-chart-bars fa-2x"></i>
+          <h5>Financial Services</h5>
+          <p style="text-align:justify">we will Provide Funds for both personal and Business. Our funding system gives a credit line facility, enabling you to expand your business to new heights</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <div class="hovercard w3-center">
+          <i class="lnr lnr-rocket fa-2x"></i>
+          <h5>Startup Registrations</h5>
+          <p style="text-align:justify">We will make your business to GST Compliance. Returns are required to be filed digitally online through a common portal to be provided by GSTN</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+
+
+   <div id="snippetContent"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script> <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"><div class="container"><div class="row"><div class="col-md-4 col-xl-3"><div class="card bg-c-blue order-card"><div class="card-block"><h6 class="m-b-20">Orders Received</h6><h2 class="text-right"><i class="fa fa-cart-plus f-left"></i><span>486</span></h2><p class="m-b-0">Completed Orders<span class="f-right">351</span></p></div></div></div><div class="col-md-4 col-xl-3"><div class="card bg-c-green order-card"><div class="card-block"><h6 class="m-b-20">Orders Received</h6><h2 class="text-right"><i class="fa fa-rocket f-left"></i><span>486</span></h2><p class="m-b-0">Completed Orders<span class="f-right">351</span></p></div></div></div><div class="col-md-4 col-xl-3"><div class="card bg-c-yellow order-card"><div class="card-block"><h6 class="m-b-20">Orders Received</h6><h2 class="text-right"><i class="fa fa-refresh f-left"></i><span>486</span></h2><p class="m-b-0">Completed Orders<span class="f-right">351</span></p></div></div></div><div class="col-md-4 col-xl-3"><div class="card bg-c-pink order-card"><div class="card-block"><h6 class="m-b-20">Orders Received</h6><h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span>486</span></h2><p class="m-b-0">Completed Orders<span class="f-right">351</span></p></div></div></div></div></div><style type="text/css">body{
+      margin-top:20px;
+      background:#FAFAFA;
+  }
+  .order-card {
+      color: #fff;
+  }
+  
+  .bg-c-blue {
+      background: linear-gradient(45deg,#4099ff,#73b4ff);
+  }
+  
+  .bg-c-green {
+      background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+  }
+  
+  .bg-c-yellow {
+      background: linear-gradient(45deg,#FFB64D,#ffcb80);
+  }
+  
+  .bg-c-pink {
+      background: linear-gradient(45deg,#FF5370,#ff869a);
+  }
+  
+  
+  .card {
+      border-radius: 5px;
+      -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+      box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+      border: none;
+      margin-bottom: 30px;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+  
+  .card .card-block {
+      padding: 25px;
+  }
+  
+  .order-card i {
+      font-size: 26px;
+  }
+  
+  .f-left {
+      float: left;
+  }
+  
+  .f-right {
+      float: right;
+  }</style> <script type="text/javascript"></script> </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-md-10 col-md-offset-1 col-sm-12">
+  <center>
+    <h1>Your Business Always Need</h1>
+    <p>For successfully starting and running any business it needs to comply with some statutory requirements. So Businesses needs to comply with following services.</p>
+  </center>
+
+</div>
+
+
+
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-rectangle"  style="border: 5px solid rgba(0, 255, 106, 0.486);"  width="235" height="156" src="backjpeg.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+      <h2>Accounts Maintenance</h2>
+      <p>Our organization has gained expertise in offering Accounting & Audit and Business Process Outsourcing Services through out India.</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-rectangle"   style="border: 5px solid rgba(0, 255, 106, 0.486);"   width="235" height="156" src="backjpeg.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+      <h2>Financial Services</h2>
+      <p>A one-stop financial service provider that caters to the diverse needs of retail, corporate and institutional customers across businesses.</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-rectangle"    style="border: 5px solid rgba(0, 255, 106, 0.486);"     width="235" height="156" src="backjpeg.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+      <h2>Company Formation</h2>
+      <p>Company registration in India is better option for start-ups and Businesses. We will help you in getting your company Incorporation done.
+
+</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+
+  <!-- /END THE FEATURETTES -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer" style="
+    width: 1200px;
+">
+	<div class="container">
+		<div class="row">
+		    <div class="col-lg-3 col-xs-12">
+				<a href="#">
+				    <img class="logo" src="logowhbg.jpeg" alt="">
+			    </a>
+			</div>
+			<div class="col-lg-3 col-xs-12">
+				<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MENU</font></font></span>
+				<ul class="column-footer">
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Showcase</font></font></a></li>
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Most Viewed</font></font></a></li>
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">New Arrivals</font></font></a></li>
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discounts</font></font></a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-xs-12">
+				 <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">INFORMATIONS</font></font></span>
+				 <ul class="column-footer">
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">about us</font></font></a></li>
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Frequently Asked Questions</font></font></a></li>
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Privacy Principles</font></font></a></li>
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Brands</font></font></a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-xs-12">
+				<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTACT</font></font></span>
+				 <ul class="column-footer">
+					<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Address</font></font></li>
+				    <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Telephone</font></font></li>
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Member Login</font></font></a></li>
+					<li><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sign up</font></font></a></li>
+				</ul>
+			</div>
+		</div> 
+		<div class="row">
+		    <div class="col-md-12">
+    		    <div class="icons">
+    				<a href="#">
+    				    <i class="fa fa-facebook-square"></i>
+    				</a>
+    				<a href="#">
+    				    <i class="fa fa-twitter-square"></i>
+    				</a>
+    				<a href="#">
+    				    <i class="fa fa-linkedin-square"></i>
+    				</a>
+    				<a href="#">
+    				    <i class="fa fa-google-plus-square"></i>
+    				</a>
+    			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="footer2" style="width: 1500px;">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-10 col-sm-12">
+      <p class=" w3-text-white mb-0 mobcenter tabcenter" style="font-size:13px;margin-top:3px;"> ©   2020, &nbsp; Surya Tax Consultancy. All rights reserved | Designed and developed by <a href="https:allinonetoufiq.tk" target="_blank">All In One Toufick</a> </p>
+     <div class="hidden-md hidden-sm hidden-lg" ></div>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <ul class="sameline listfooter mobcenter tabcenter">
+        <li><a href="index-2.html">Home</a></li>
+
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+ <!--<div class="content-wrapper">
+
+
+ </div>-->
+
+
+
+ 
+ 
+
+ 
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
